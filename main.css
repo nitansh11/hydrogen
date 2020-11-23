@@ -1,6 +1,78 @@
-*{
-    margin: 0px;
-    padding:0px;
+#footer-container_ars{
+    width: 95%;
+    height: 500px;
+    margin: 15px;
+   
+}
+.top-box_ars{
+    display: flex;
+    width: 75%;
+    height: 45%;
+    margin: 0 auto;
+   
+
+}
+.top-box_ars>div{
+    height: 100%;
+    width: 30%;
+    margin: 10px;
+    float: left;
+}
+.top-box_ars>div>p{
+    line-height: 5px;
+}
+.middle-box_ars{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: 100px 100px;
+    height: 20%;
+    width: 90%;
+    margin: 10px auto;
+   
+}
+.middle-box_ars>div:nth-child(1){
+    width: 100%;
+    height: 100%;
+    
+    grid-area: mid_b1;
+}
+.middle-box_ars>div:nth-child(2){
+    width: 100%;
+    height: 100%;
+    
+    grid-area: mid_b2;
+}
+.middle-box_ars>div:nth-child(3){
+    width: 100%;
+    height: 100%;
+   
+    grid-area: mid_b3;
+}
+.middle-box_ars{
+    grid-template-areas: 
+    "mid_b1 mid_b2 mid_b3"
+    ;
+}
+.middle-box_ars>div>img{
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    margin-top: 15px;
+    float: right;
+    margin-right: 10px;
+    
+}
+#english{
+      width: 120px;
+      height: 50px;
+
+}
+#dollar{
+    width: 200px;
+      height: 50px;
+
+
+
 }
 /************************** Navigation Section (by Nitansh) **************************/
 li a{
@@ -231,4 +303,5 @@ i{
 #dot-border > div:nth-child(6){
     top:190px;
     left: 440px;
+
 }
