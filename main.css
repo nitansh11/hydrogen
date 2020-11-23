@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*********************************************************************/
+#navigation{
+   
+}
+
+/************/
+#basic-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+}
+#basic-nav > *{
+    
+}
+#logo img{
+    width: 200px;
+}
+#logo img+p{
+    text-align: center;
+}
+#basic-nav li{
+    display: inline;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+/************/
+
+#category-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0px;
+    color: gray;
+}
+#category-nav li{
+    display: inline;
+    padding: 0 10px;
+}
+
