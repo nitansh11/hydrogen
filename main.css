@@ -3,8 +3,14 @@
     padding:0px;
 }
 /*********************************************************************************/
+i{
+    border: 1px solid gray;
+    width: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin:8px 2px;
+}
 #main-banner{
-    outline: 1px solid red;
     display: flex;
     width: 90%;
     height: 600px;
@@ -13,40 +19,61 @@
 }
 /*************/
 #main-banner-left{
-    outline: 1px solid green;
     width: 50%;
     padding-right: 5%;
+    border-right: 1px solid rgba(128, 128, 128, 0.425);
     
 }
 #main-banner-left img{
     width: 100%;
 }
 #main-banner-left h2{
-   
+   padding:20px 0;
 }
-#main-banner-left p{
-   
+.mini-header{
+    padding:15px 0;
+    color: gray;
+    font-size: 14px;
+}
+#main-banner-left p:last-child{
+    padding:20px 0;
+    font-size: 12px;
+    color: gray;
 }
 
 /*************/
 #main-banner-right{
-    outline: 1px solid blue;
-    width: 50%;
+ 
+    width: 40%;
     padding-left: 5%;
 }
 
 .side-banner{
     height: 120px;
-    outline: 1px solid orange;
     display: flex;
+    padding-top: 20px;
 }
 .side-banner img{
     width: 180px;
     height: 100px;
-    outline: 1px solid orange;
+   
+    margin-right: 25px;
 }
 .side-banner-content{
     width: 100%;
-    outline: 1px solid orange;
-   
+  
+}
+.side-banner-content > *{
+    padding: 3px 0;
+    font-size: 15px;
+}
+
+.side-banner-content > p:nth-child(2){
+    font-size: 13px;
+    color: #037362;
+    font-weight: bold;
+}
+.side-banner-content > p:nth-child(3){
+    font-size: 13px;
+    color: gray;
 }
