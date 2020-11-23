@@ -26,6 +26,7 @@ i{
 }
 #main-banner-left img{
     width: 100%;
+    border-bottom: 12px solid #037362;;
 }
 #main-banner-left h2{
    padding:20px 0;
@@ -51,7 +52,8 @@ i{
 .side-banner{
     height: 120px;
     display: flex;
-    padding-top: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.363);
 }
 .side-banner img{
     width: 180px;
