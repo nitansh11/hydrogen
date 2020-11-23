@@ -72,4 +72,236 @@
       height: 50px;
 
 
+
+}
+/************************** Navigation Section (by Nitansh) **************************/
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+}
+
+/************/
+#basic-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+}
+#basic-nav  a{
+    color: black;
+}
+#basic-nav  i{
+   border: none;
+}
+#logo img{
+    width: 200px;
+}
+#logo img+p{
+    text-align: center;
+}
+#basic-nav li{
+    display: inline;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+/************/
+
+#category-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0px;
+    color: gray;
+}
+#category-nav li{
+    display: inline;
+    padding: 0 10px;
+}
+/************************** Main Banner Section (by Nitansh) **************************/
+#main-banner{
+    display: flex;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+i{
+    border: 1px solid gray;
+    width: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin:8px 2px;
+}
+
+/*************/
+#main-banner-left{
+    width: 50%;
+    padding-right: 5%;
+    border-right: 1px solid rgba(128, 128, 128, 0.425);
+    
+}
+#main-banner-left img{
+    width: 100%;
+    border-bottom: 12px solid #037362;;
+}
+#main-banner-left h2{
+   padding:20px 0;
+}
+.mini-header{
+    padding:15px 0;
+    color: gray;
+    font-size: 14px;
+}
+#main-banner-left p:last-child{
+    padding:20px 0;
+    font-size: 12px;
+    color: gray;
+}
+
+/*************/
+#main-banner-right{
+ 
+    width: 40%;
+    padding-left: 5%;
+}
+
+.side-banner{
+    height: 120px;
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.363);
+}
+.side-banner img{
+    width: 180px;
+    height: 100px;
+   
+    margin-right: 25px;
+}
+.side-banner-content{
+    width: 100%;
+  
+}
+.side-banner-content > *{
+    padding: 3px 0;
+    font-size: 15px;
+}
+
+.side-banner-content > p:nth-child(2){
+    font-size: 13px;
+    color: #037362;
+    font-weight: bold;
+}
+.side-banner-content > p:nth-child(3){
+    font-size: 13px;
+    color: gray;
+}
+
+/************************** Creative Banner Section (by Nitansh) **************************/
+#creative-banner{
+    width: 80%;
+    height: 500px;
+    margin: 100px auto;
+    display: flex;
+    
+    border-top: 1px solid rgba(128, 128, 128, 0.377);
+}
+
+/********************/
+#creative-banner-left{
+   
+    width: 30%;
+    padding: 150px 0;
+}
+
+#creative-banner-left h2{
+   width: 80%;
+   border-radius: 5px;
+   background-color: yellow;
+   font-weight: normal;
+   padding: 5px 50px 5px 10px;
+   
+}
+#creative-banner-left > p{
+ 
+    margin-top: 15px;
+    width: 80%;
+    
+}
+#creative-banner-left > a{
+   text-decoration: none;
+    color: #5555FF;
+   margin-top: 40px;
+   display:block;
+   font-size: 13px;
+}
+
+/********************/
+#creative-banner-right{
+  
+    width: 70%;
+}
+
+#dot-border{
+    border: 1.5px dashed black;
+    width: 70%;
+    height: 250px;
+    margin: 125px auto;
+    position: relative;
+    z-index: -1;
+}
+
+
+#dot-border > div {
+    position: absolute;
+    width: 190px;
+}
+
+#dot-border img+div{
+    background-color: white;
+    margin-top:105px;
+    margin-left: 30px;
+    padding: 10px 0 0 10px;
+}
+
+#dot-border img+div > p:nth-child(1){
+    
+  }
+#dot-border img+div > p:nth-child(2){
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+
+#dot-border img{
+    width: 125px;
+    position: absolute;
+    z-index: -1;
+}
+#dot-border > div:nth-child(1){
+    top:-52px;
+    left: 40px;
+}
+#dot-border > div:nth-child(2){
+    top:-52px;
+    left: 300px;
+}
+#dot-border > div:nth-child(3){
+    top:-52px;
+    left: 540px;
+}
+
+#dot-border > div:nth-child(4){
+    top:190px;
+    left: -60px;
+}
+#dot-border > div:nth-child(5){
+    top:190px;
+    left: 200px;
+}
+#dot-border > div:nth-child(6){
+    top:190px;
+    left: 440px;
+
 }
