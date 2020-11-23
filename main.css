@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 #footer-container_ars{
     width: 95%;
     height: 500px;
@@ -19,7 +23,10 @@
     float: left;
 }
 .top-box_ars>div>p{
-    line-height: 5px;
+    line-height: 25px;
+}
+.top-box_ars>div>h4{
+    margin-bottom: 18px;
 }
 .middle-box_ars{
     display: grid;
