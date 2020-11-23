@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*********************************************************************/
+#navigation{
+    outline: 1px solid blue;
+    margin-top: 10px;
+}
+
+/************/
+#basic-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#basic-nav > *{
+    outline: 1px solid red;
+}
+#logo img{
+    width: 200px;
+}
+#logo img+p{
+    text-align: center;
+}
+#basic-nav li{
+    display: inline;
+}
+
+/************/
+
+#category-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#category-nav li{
+    display: inline;
+    outline: 1px solid red;
+}
+
