@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+/*********************************************************************************/
+#main-banner{
+    outline: 1px solid red;
+    display: flex;
+    width: 90%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+/*************/
+#main-banner-left{
+    outline: 1px solid green;
+    width: 50%;
+    padding-right: 5%;
+    
+}
+#main-banner-left img{
+    width: 100%;
+}
+#main-banner-left h2{
+   
+}
+#main-banner-left p{
+   
+}
+
+/*************/
+#main-banner-right{
+    outline: 1px solid blue;
+    width: 50%;
+    padding-left: 5%;
+}
+
+.side-banner{
+    height: 120px;
+    outline: 1px solid orange;
+    display: flex;
+}
+.side-banner img{
+    width: 180px;
+    height: 100px;
+    outline: 1px solid orange;
+}
+.side-banner-content{
+    width: 100%;
+    outline: 1px solid orange;
+   
+}
