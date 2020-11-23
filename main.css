@@ -4,8 +4,7 @@
 }
 /*********************************************************************/
 #navigation{
-    outline: 1px solid blue;
-    margin-top: 10px;
+   
 }
 
 /************/
@@ -13,9 +12,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding:10px 20px;
 }
 #basic-nav > *{
-    outline: 1px solid red;
+    
 }
 #logo img{
     width: 200px;
@@ -25,6 +25,8 @@
 }
 #basic-nav li{
     display: inline;
+    padding: 0 10px;
+    font-size: 13px;
 }
 
 /************/
@@ -33,9 +35,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:20px 0px;
+    color: gray;
 }
 #category-nav li{
     display: inline;
-    outline: 1px solid red;
+    padding: 0 10px;
 }
 
