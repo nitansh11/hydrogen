@@ -595,6 +595,35 @@ i{
     #creative-banner-left{
         padding: 25px 0;
     } 
+    #dot-border img{
+        width: 50%
+    }
+    #dot-border > div:nth-child(1){
+        top:-52px;
+        left: -50px;
+        border: 1px solid red;
+    }
+    #dot-border > div:nth-child(2){
+        top:-52px;
+        left: 150px; border: 1px solid red;
+    }
+    #dot-border > div:nth-child(3){
+        top:-52px;
+        left: 350px; border: 1px solid red;
+    }
+    
+    #dot-border > div:nth-child(4){
+        top:190px;
+        left: -120px; border: 1px solid red;
+    }
+    #dot-border > div:nth-child(5){
+        top:190px;
+        left: 100px; border: 1px solid red;
+    }
+    #dot-border > div:nth-child(6){
+        top:190px;
+        left: 340px; border: 1px solid red;
+    }
     /* Navigation */
     #category-nav ul{
         overflow: auto;
