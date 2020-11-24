@@ -1,4 +1,60 @@
 
+/* task:lights_on_banner,by:sohail,type:CSS_MAIN */
+
+#main-soh{
+    border: 1px solid wheat;
+    width: 95%;
+    height: 400px;
+    margin: auto;
+    clear: both;
+}
+#main-soh .left{
+    /* border: 1px solid black; */
+    width: 48%;
+    height: 600px;    
+    float: left;
+    clear: both;
+}
+#main-soh .left img{
+    width: 100%;
+    height: 260px;   
+}
+#main-soh .left .dash{
+    background-color: teal;
+    width: 5px;
+    height: 90px;
+    float: left;  
+    margin-top: 23px;    
+}
+#main-soh .left .data-left,#main-soh .right .data-right{
+    margin-left: 15px;
+}
+#main-soh .left .data-left h4,#main-soh .right .data-right h4{
+    color: gray;
+}
+#main-soh .right{
+    /* border: 1px solid black; */
+    width: 48%;
+    height: 600px;
+    float: left;
+    margin-left: 44px;
+    clear: right;
+    
+}
+#main-soh .right img{
+    width: 100%;
+    height: 260px;
+}
+#main-soh .right .dash{
+    background-color: teal;
+    width: 5px;
+    height: 90px;
+    float: left;
+    margin-top: 23px;
+}
+/* task_ended:lights_on_banner,by:sohail,type:CSS_MAIN */
+
+
 
 /* task:blackLives Matter,by:sohail,type:CSS_MAIN */
 #main-soh{
@@ -482,6 +538,7 @@ i{
     left: 440px;
 
 }
+
 
 
 
