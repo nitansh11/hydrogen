@@ -120,3 +120,378 @@
 }
 
 /* Login Task_ended by SOHAIL start_project CSS */
+
+
+#main-soh{
+    border: 1px solid  wheat;
+    width: 70%;
+    height: 1300px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    clear: both;
+}
+#main-soh .one{
+    margin-top: 30px;
+}
+#main-soh .heading{
+    margin-left: 100px;
+    font-size: 19px;
+    clear: both;
+}
+#main-soh .one {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 250px;
+}
+#main-soh .one .one-left{
+    /* border: 1px solid black; */
+    width: 45%;
+    height: 300px;
+    float: left;
+}
+#main-soh .one .one-left h1{
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 27px;
+}
+#main-soh .one .one-right{
+    /* border: 1px solid black; */
+    width: 52%;
+    height: 300px;
+    float: left;
+}
+#main-soh .one .one-right p{
+    margin-top: 50px;
+    line-height: 24px;
+    margin-left: 10px;
+    color:rgba(0, 0, 0, 0.877);
+}
+#main-soh2{
+    border: 1px solid black;
+    width: 95%;
+    height: 600px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.774);
+    margin-top: 20px;
+}
+#main-soh2 video{
+    width: 90%;
+    height: 550px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+#main-soh3{
+    border: 1px solid wheat;
+    width: 70%;
+    height: 800px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#main-soh3 .heading{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+#main-soh3 .two{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+}
+#main-soh3 .two .two-left{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-soh3 .two .two-left h1{
+    font-size: 25px;
+}
+#main-soh3 .two .two-left p{
+    margin-left: 70px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+
+/************************** Navigation Section (by Nitansh) **************************/
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+}
+
+/************/
+#basic-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+}
+#basic-nav  a{
+    color: black;
+}
+#basic-nav  i{
+   border: none;
+}
+#logo img{
+    width: 200px;
+}
+#logo img+p{
+    text-align: center;
+}
+#basic-nav li{
+    display: inline;
+    padding: 0 10px;
+    font-size: 13px;
+}
+/*********************************** Bottom Section: By Nitansh ***********************************/
+
+#bottom-section-1{
+   
+    width: 70%;
+    margin: 20px auto;
+   
+}
+
+#bottom-section-1 > div:nth-child(1){
+   padding-bottom: 10px;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+ }
+
+#bottom-section-1  h1{
+    width: 50%;
+}
+#bottom-section-1  ul{
+    margin: 30px 0 0 0;
+    padding: 5px 0; 
+}
+#bottom-section-1  ul > li{
+    list-style: none;
+    display: inline;
+    margin: 0 25px 0 0;
+    font-size: 13px;
+}
+#bottom-section-1  ul > li a{
+    text-decoration: none;
+    color: gray;
+}
+#bottom-section-1  ul + div{
+    height: 12px;
+    background-color: rgba(161, 158, 158, 0.24);
+}
+/**********************/
+#dynamic-section{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+   
+    margin-top: 50px;
+}
+#dynamic-section-1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    margin-bottom: 50px;
+}
+#dynamic-section-1 > div:nth-child(1) > p{
+    width: 90%;
+    font-size: 20px;
+    padding-top: 20px;
+}
+#dynamic-section-1 > div:nth-child(2){
+    border: 1px solid black;
+    padding:20px;
+    width: 95%;
+}
+#dynamic-section-1 > div:nth-child(2) button{
+    width: 120px;
+    height: 35px;
+    background-color: #464646;
+    color: white;
+    border: none;
+    margin-top: 25px;
+}
+#dynamic-section-1 > div:nth-child(2) button + p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+#dynamic-section-1 > div:nth-child(2) > p:first-child{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#dynamic-section-1 + div{
+    color: gray;
+}
+/********/
+
+#dynamic-section-2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+   
+    margin-top: 15px;
+    gap: 40px;
+}
+#dynamic-section-2 img{
+    width: 100%;
+    text-align: center;
+}
+#dynamic-section-2 a{
+   text-decoration: none;
+   font-size: 12px;
+   color: black;
+   font-weight: bold;
+}
+#dynamic-section-2 a:hover{
+   text-decoration: underline;
+   color: #037362;
+ }
+
+
+
+/******************/
+#bottom-section-2{
+    background-color: #FFCBA9;
+    padding: 90px 400px;
+    border-top:1px solid black;
+    border-bottom:1px solid gray;
+    margin:100px 0;
+}
+
+#bottom-section-2 h1{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+#bottom-section-2 button{
+    width: 150px;
+    height: 45px;
+    background-color: #464646;
+    color: white;
+    font-size: 17px;
+    margin-top: 40px;
+    border: none;
+}
+
+/* task:top-section,by:arshad,type:CSS_MAIN */
+#top-1_ars{
+    height: 250px;
+    width: 650px;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+#top-1_ars>h1{
+    margin: 20px;
+    font-size: 50px;
+}
+#top-1_ars>div{
+    background-color: teal;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    margin-left: 20px;
+
+}
+#top-1_ars>div>p{
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 12px;
+}
+#top-2_container_ars{
+        height: 600px;
+        width: 90%;
+        margin: 10px auto;
+       
+        margin-top: 20px;
+
+}
+#top-2_grid_ars{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-row: 50% 50%;
+    height: 100%;
+    width: 100%;
+   
+    
+
+}
+#top-2_grid_ars>div:nth-child(1){
+    height: 93%;
+    width: 90%;
+    margin: 10px;
+    
+    grid-area: top_b1;
+    background-image: url(https://ksr-ugc.imgix.net/assets/003/713/142/fb2d201b5daa8f4a8e595c600b258217_original.jpg?ixlib=rb-2.1.0&w=680&fit=max&v=1430495226&auto=format&frame=1&q=92&s=c1400faf084c88533eabe941d943971b);
+   
+    
+    background-position: center;
+}
+#top-2_grid_ars>div:nth-child(2){
+    height: 85%;
+    width: 100%;
+    margin: 10px;
+    background-color: blue;
+    background-image: url(https://ksr-ugc.imgix.net/assets/012/427/378/3bb7fbd9bc8e6b92fd310a63a3a8de68_original.jpg?ixlib=rb-2.1.0&crop=faces&w=1552&h=873&fit=crop&v=1464220852&auto=format&frame=1&q=92&s=9ccd199a7a4b2810a13fe9710ff97ab3);
+
+    background-size: 620px;
+    grid-area: top_b2;
+}
+#top-2_grid_ars>div:nth-child(3){
+    height: 85%;
+    width: 100%;
+    margin: 10px;
+    background-color: navajowhite;
+    grid-area: top_b3;
+    background-image: url(https://ksr-ugc.imgix.net/assets/016/219/274/8ea218606e377df9008b8415cf9debcd_original.jpg?ixlib=rb-2.1.0&w=700&fit=max&v=1491927239&auto=format&frame=1&q=92&s=3a38886ce741961e0ab142859c56a505);
+    background-size: 620px;
+    background-position: center;
+}
+#top-2_grid_ars{
+    grid-template-areas:
+    "top_b1 top_b2"
+    "top_b1 top_b3" ;
+}
+#top-2_grid_ars>div>p{
+    margin: 10px;
+    background-color: white;
+    font-size: 14px;
+    line-height: 20px
+    ;
+}
+#top-2_grid_ars>div:nth-child(1)>p:first-child{
+    margin-top: 75%;
+}
+#top-2_grid_ars>div:nth-child(2)>p{
+    margin-top: 40%;
+
+}
+#top-2_grid_ars>div:nth-child(3)>p{
+    margin-top: 40%;
+
+
+}
+#top-3_ars{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(1, 80, 80);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#top-3_ars>h1{
+    font-size: 40px;
+    padding-top: 7%;
+    padding-left: 20%;
+    color: white;
+
+}
+#top-3_ars>p{
+    color: white;
+    padding-left: 20%;
+    padding-top: 2%;
+
+}
