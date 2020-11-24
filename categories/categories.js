@@ -11,6 +11,7 @@ else if(path.includes("comics")){
     var pText="Explore fantastical worlds and original characters from Kickstarter’s community of comics creators and illustrators.";
     var liText=['Explore Comics','Explore Illustration'];
     createDynamicHeader(h1Text,pText,liText);
+
 }
 else if(path.includes("design")){
     var h1Text="Design & Tech";
@@ -87,3 +88,6 @@ function createDynamicHeader(h1Text,pText,liText){
    var navigation= document.getElementById('navigation')
    navigation.parentNode.insertBefore(dynamicDivTag,navigation.nextSibling);
 }
+
+
+/************************************************************************/
