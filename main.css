@@ -576,6 +576,14 @@ i{
     top:190px;
     left: 440px;
 }
+
+/* task:top-section,by:arshad,type:CSS_MAIN */
+#top1_ars{
+    height: 200px;
+    width: 300px;
+    margin: 10px auto;
+    ba
+}
 /*****************************************Media Queries by Nitansh START ****************************************************/
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
@@ -656,6 +664,7 @@ i{
 
 }
 /*****************************************Media Queries by Nitansh END****************************************************/
+
 
 
 
