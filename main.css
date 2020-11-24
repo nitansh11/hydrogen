@@ -5,8 +5,10 @@
     grid-gap: 30px;
     grid-template-rows: 200px 200px;
     grid-template-columns: 1fr 1fr  ;
-    border: 1px solid black;
+    border: 1px solid wheat;
     width: 85%;
+    margin: auto;
+    margin-top: 100px ;
 
 }
 #main-soh div{
@@ -35,3 +37,5 @@
     color: navy;
 
 }
+
+/* task_ended:creator_corner,by:sohail,type:CSS_MAIN */
