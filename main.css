@@ -12,14 +12,10 @@ body {
   width: 90%;
   margin: 5% auto;
 }
-.slide-container_ars {
-  height: 550px;
-  width: 90%;
-  margin: 5% auto;
-}
-.fresh-p_ars {
-  margin: 10px;
-  float: left;
+
+.fresh-p_ars{
+    margin: 10px;
+    float: left;
 }
 
 #explore-grid_ars {
@@ -29,12 +25,26 @@ body {
   width: 98%;
   height: 90%;
 }
-#explore-grid2_ars {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto;
-  width: 98%;
-  height: 90%;
+#explore-grid_ars>div>h3{
+    margin-top: 10px;
+}
+#explore-grid_ars>div>p{
+    margin-top: 10px;
+    line-height: 20px;
+}
+#explore-grid2_ars>div>h3{
+    margin-top: 10px;
+}
+#explore-grid2_ars>div>p{
+    margin-top: 10px;
+    line-height: 20px;
+}
+#explore-grid2_ars{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    width: 98%;
+    height: 90%;
 }
 #explore-grid_ars > div {
   width: 95%;
@@ -81,15 +91,28 @@ body {
   height: 70%;
 }
 /*************(slide show by arshad)**************/
-#slide-botton_ars {
-  float: right;
-  margin: 10px;
-  height: 30px;
-  width: 100px;
+#slide-botton_ars{
+    float: right;
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    
 }
-#slide-botton_ars > button {
-  background-color: white;
-  width: 40px;
+.slide-container_ars{
+   
+    height: 550px;
+    width: 90%;
+    margin: 5% auto;
+    
+
+
+}
+
+#slide-botton_ars>button{
+    background-color: white;
+    width: 40px;
+
+
 }
 #slide-grid_ars {
   display: grid;
@@ -103,10 +126,72 @@ body {
   height: 90%;
   margin: 10px;
 }
-#slide-grid_ars > div > img {
-  height: 45%;
+#slide-grid_ars>div:nth-child(1){
+    grid-area: s1;
+}
+#slide-grid_ars>div:nth-child(2){
+    grid-area: s2;
+}
+#slide-grid_ars>div:nth-child(3){
+    grid-area: s3;
+}
+#slide-grid_ars>div:nth-child(4){
+    grid-area: s4;
+}
+#slide-grid_ars>div>img{
+    
+    height: 45%;
 
   width: 100%;
+}
+#slide-grid_ars>div>div{
+    height: 80px;
+    width: 100%;
+    
+    display: flex;
+
+}
+.remind{
+    
+    height: 50%;
+    width: 100px;
+    border: 1px solid grey;
+    border-radius: 5px;
+
+
+}
+.like{
+    height: 50%;
+    width: 40px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    margin-left: 100px;
+    
+
+
+}
+.like>img{
+    height: 60%;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.dislike>img{
+    height: 60%;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.dislike{
+    height: 50%;
+    width: 40px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    margin-left: 10px;
+
+
+}
+.remind>p{
+    text-align: center;
+    margin-top: 10px;
 }
 
 #slide-grid_ars > div > h3 {
@@ -218,46 +303,134 @@ body {
 .footer-lastdiv > li:first-child {
   padding-left: 20px;
 }
-/* Medium devices (landscape tablets,0px and up) */
+/* Medium devices (landscape tablets,px and up) */
 @media only screen and (min-width: 0px) {
-  #english {
-    margin-left: 0px;
-  }
-  .middle-box_ars {
-    grid-template-areas:
-      "mid_b1 mid_b1 mid_b1"
-      "mid_b2 mid_b2 mid_b2"
-      "mid_b3 mid_b3 mid_b3";
-  }
-  #explore-grid_ars {
-    grid-template-areas:
-      "ex1 ex1 ex2 ex2"
-      "ex3 ex3 ex4 ex4";
-  }
-  #explore-grid2_ars {
-    grid-template-areas:
-      "ex12 ex12 ex22 ex22"
-      "ex32 ex32 ex42 ex42";
-  }
-  .explore-container_ars {
-    height: 1000px;
-  }
+    #english{
+        margin-left: 0px;
+    }
+    .middle-box_ars{
+        grid-template-areas: 
+        "mid_b1 mid_b1 mid_b1"
+        "mid_b2 mid_b2 mid_b2"
+        "mid_b3 mid_b3 mid_b3"
+        ;
+    }
+    #explore-grid_ars{
+        grid-template-areas: 
+        "ex1 ex1 ex2 ex2"
+        "ex3 ex3 ex4 ex4";
+    }
+    #explore-grid2_ars{
+        grid-template-areas: 
+        "ex12 ex12 ex22 ex22"
+        "ex32 ex32 ex42 ex42";
+    }
+    .explore-container_ars{
+   
+        height: 1000px;
+       
+    }
+    #slide-grid_ars{
+        grid-template-areas: 
+        "s1"
+        "s2"
+        "s3"
+        "s4"
+       ;
+    }
+    #slide-grid_ars>div:nth-child(3){
+        display: inline;
+    }
+    #slide-grid_ars>div:nth-child(4){
+        display: inline;
+    }
+    .slide-container_ars{
+   
+        height: 2000px;
+        
+        
+    
+    
+    }
+    
+    
+    
+  
+    
+
+} 
+@media only screen and (min-width:790px){
+    #slide-grid_ars{
+        grid-template-areas: 
+        "s1 s1 s2 s2"
+       ;
+    }
+    #slide-grid_ars>div:nth-child(3){
+        display: none;
+    }
+    #slide-grid_ars>div:nth-child(4){
+        display:none;
+    }
+    
+    .slide-container_ars{
+   
+        height: 500px;
+        
+        
+    
+    
+    }
+   /* #slide-grid_ars>div>div{
+        display:none;
+    
+    }*/
+}
+@media only screen and (min-width: 1026px){
+    #slide-grid_ars{
+        grid-template-areas: 
+        "s1 s2 s3 s4";
+    }
+    #slide-grid_ars>div:nth-child(3){
+        display: inline;
+    }
+    #slide-grid_ars>div:nth-child(4){
+        display:inline;
+    }
+    #slide-grid_ars>div>div{
+        display:none;
+    
+    }
+    
+
 }
 /* Large devices (laptops/desktops, 1099px and up) */
 @media only screen and (min-width: 1099px) {
-  .middle-box_ars {
-    grid-template-areas: "mid_b1 mid_b2 mid_b3";
-  }
-  #explore-grid_ars {
-    grid-template-areas: "ex1 ex2 ex3 ex4";
-  }
-  #explore-grid2_ars {
-    grid-template-areas: "ex12 ex22 ex32 ex42";
-  }
-  .explore-container_ars {
-    height: 650px;
-  }
-}
+    .middle-box_ars{
+        grid-template-areas: 
+        "mid_b1 mid_b2 mid_b3"
+        ;
+    }
+    #explore-grid_ars{
+        grid-template-areas: 
+        "ex1 ex2 ex3 ex4"
+        ;
+    }
+    #explore-grid2_ars{
+        grid-template-areas: 
+        "ex12 ex22 ex32 ex42"
+        ;
+    }
+    .explore-container_ars{
+   
+        height: 650px;
+       
+    }
+   
+   
+    
+
+
+} 
 
 /************************** Navigation Section (by Nitansh) **************************/
 #navigation {
@@ -741,11 +914,9 @@ i {
 }
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
-
 }  */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {
-
 } */
 /*****************************************Media Queries by Nitansh END****************************************************/
 
@@ -800,10 +971,8 @@ i {
 
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
-
 }  */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {
-
 } */
 /*****************************************Media Queries by SOHAIL END****************************************************/
