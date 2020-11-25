@@ -2,8 +2,6 @@
     margin: 0px;
     padding:0px;
 }
-
-
 body{
   font-style: Verdana;
 }
@@ -225,10 +223,6 @@ li a{
     padding: 0 10px;
 }
 /************************** Main Banner Section (by Nitansh) **************************/
-*{
-    margin: 0px;
-    padding:0px;
-}
 #main-banner{
     display: grid;
     grid-template-columns: 50% 50%;

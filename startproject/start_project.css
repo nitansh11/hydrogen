@@ -251,8 +251,11 @@ li a{
 /*********************************** Bottom Section: By Nitansh ***********************************/
 
 #bottom-section-1{
-    width: 70%;
-    margin: 20px auto;
+    /* width: 70%;*/
+    /* margin: 20px auto;  */
+    display: grid;
+    grid-template-columns: 70%;
+    justify-content: center;
 }
 
 #bottom-section-1 > div:nth-child(1){
@@ -285,7 +288,6 @@ li a{
 #dynamic-section{
     display: grid;
     grid-template-columns: repeat(4,25%);
-   
     margin-top: 50px;
 }
 #dynamic-section-1{
@@ -500,7 +502,16 @@ li a{
 } 
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
-    
+    /* Bottom Section */
+    #dynamic-section-1{
+        flex-direction: column;
+    }
+    #dynamic-section-1 > div{
+        margin-bottom: 20px;
+    }
+    #dynamic-section-2{
+        flex-direction: column;
+    }
 } 
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
