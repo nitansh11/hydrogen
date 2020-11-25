@@ -448,10 +448,10 @@ body{
 
 } 
 
-
-
-
 /************************** Navigation Section (by Nitansh) **************************/
+#navigation{
+  
+}
 li a{
     list-style: none;
     text-decoration: none;
@@ -640,20 +640,77 @@ i{
 
 /* task:email_ended,by:sohail,type:CSS_MAIN */
 
-/************************** Creative Banner Section (by Nitansh) **************************/
-#creative-banner{
-    width: 80%;
+* task:blackLives Matter,by:sohail,type:CSS_MAIN */
+*{
+    margin: 0px;
+    padding:0px;
+}
+#Black_Lives_Matter{
+    width: 100%;
+    padding: 0px 0;
+    display: flex;
    
-    margin: 100px auto;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    border-top: 1px solid rgba(128, 128, 128, 0.377);
+}
+#Black_Lives_Matter .left{
+    /* border:  1px solid black; */
+    width: 48%;
+}
+#Black_Lives_Matter .left .color{
+    background-color: black;
+    width: 90%;
+    height: 230px;
+    margin: auto;
+    margin-top: 37px;   
+}
+#Black_Lives_Matter .right {
+    /* border: 1px solid black; */
+    width: 48%;
+    height: 300px; 
+    display: flex;
+    line-height: 35px;
+    
+}
+#Black_Lives_Matter .right .dash{
+    background-color: black;
+    width: 5px;
+    height: 150px;
+    margin-top: 40px;    
+}
+#Black_Lives_Matter .right .data h1{
+    margin-top: 40px;
+    margin-left: 15px;
 }
 
-/********************/
+#Black_Lives_Matter .right .data p{
+    font-size: 20px;
+    margin-left: 15px;
+}
+#Black_Lives_Matter .right .data h5{
+    color: gray;
+}
+
+.left{
+    grid-area: le;
+}
+.right{
+    grid-area: rig;
+}
+
+
+/************************** Creative Banner Section (by Nitansh) **************************/
+
+
+#creative-banner{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    border-top: 1px solid rgba(128, 128, 128, 0.158);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.158);
+}
+/**********************/
+
 #creative-banner-left{
     padding: 150px 0;
-    
+    margin-left: 20px;
 }
 
 #creative-banner-left h2{
@@ -678,69 +735,38 @@ i{
    font-size: 13px;
 }
 
-/********************/
+/**********************/
 #creative-banner-right{
-  
+   
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    justify-content: center;
+    align-items: center;
 }
-
-#dot-border{
-    /* border: 1.5px dashed black; */
-    width: 70%;
-    height: 250px;
-    margin: 125px auto;
+#creative-banner-right > div{
+    
+    width: 80%;
+}
+#creative-banner-right img{
+    width: 60%; 
     position: relative;
-    z-index: -1;
+    box-shadow: gray 10px 10px 10px;
+    z-index: -1; 
+   
 }
-
-
-#dot-border > div {
-    position: absolute;
-    width: 190px;
-}
-
-#dot-border img+div{
+#creative-banner-right > div > div{
     background-color: white;
-    margin-top:105px;
+    width: 80%;
+    margin-top: -40px;
+    padding-top: 10px;
+    padding-left: 10px;
     margin-left: 30px;
-    padding: 10px 0 0 10px;
 }
-
-#dot-border img+div > p:nth-child(2){
-  font-size: 12px;
-  margin-top: 10px;
+#creative-banner-right > div > div > p:last-child{
+   
+    font-size: 12px;
+    margin-top: 5px;
 }
-
-#dot-border img{
-    width: 50%;
-    position: absolute;
-    z-index: -1;
-}
-#dot-border > div:nth-child(1){
-    top:-52px;
-    left: 40px;
-}
-#dot-border > div:nth-child(2){
-    top:-52px;
-    left: 300px;
-}
-#dot-border > div:nth-child(3){
-    top:-52px;
-    left: 540px;
-}
-
-#dot-border > div:nth-child(4){
-    top:190px;
-    left: -60px;
-}
-#dot-border > div:nth-child(5){
-    top:190px;
-    left: 200px;
-}
-#dot-border > div:nth-child(6){
-    top:190px;
-    left: 440px;
-}
-
 /* task:top-section,by:arshad,type:CSS_MAIN */
 #top1_ars{
     height: 200px;
@@ -764,42 +790,28 @@ i{
         border-bottom: 1px solid rgba(128, 128, 128, 0.425);
     }
     /* Creative Banner */
-    #creative-banner{
-        display: grid;
-        grid-template-columns: 90%;
-    }
     #creative-banner-left{
-        padding: 25px 0;
-    } 
-    #dot-border img{
-        width: 50%
+        padding: 30px 0 30px 0;
     }
-    #dot-border > div:nth-child(1){
-        top:-52px;
-        left: -50px;
-        
-    }
-    #dot-border > div:nth-child(2){
-        top:-52px;
-        left: 150px; 
-    }
-    #dot-border > div:nth-child(3){
-        top:-52px;
-        left: 350px;
-    }
-    
-    #dot-border > div:nth-child(4){
-        top:190px;
-        left: -120px;
-    }
-    #dot-border > div:nth-child(5){
-        top:190px;
-        left: 100px; 
-    }
-    #dot-border > div:nth-child(6){
-        top:190px;
-        left: 340px; 
-    }
+#creative-banner-right{
+    grid-template-columns: repeat(2,45%);
+}
+#creative-banner{
+    grid-template-columns: 90%;
+    margin: auto;
+}
+#creative-banner-right > div{
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+#creative-banner-right > div > div{
+   
+    width: 80%;
+    margin-top: -20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 30px;
+}
     /* Navigation */
     #category-nav ul{
         overflow: auto;
@@ -854,6 +866,23 @@ i{
     }
     #email-soh h3{
         font-size: 15px;
+    }
+
+    /*Black lives matter*/
+    #Black_Lives_Matter{
+        flex-direction: column;
+    }
+    #Black_Lives_Matter .left{
+        width: 100%;
+    }
+    #Black_Lives_Matter .right{
+        width: 100%;
+    }
+    .dash{
+        visibility: hidden;
+    }
+    #Black_Lives_Matter p{
+        font-size: 12px;
     }
 } 
 
