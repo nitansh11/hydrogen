@@ -82,8 +82,26 @@ li a{
     height:95%;
     width: 90%;
     margin: 10px auto;
+    
 
 }
+.bottom-grid_ars>div:nth-child(1){
+    grid-area: b1;
+
+}
+.bottom-grid_ars>div:nth-child(2){
+    grid-area: b2;
+
+}
+.bottom-grid_ars>div:nth-child(3){
+    grid-area: b3;
+
+}
+.bottom-grid_ars>div:nth-child(4){
+    grid-area: b4;
+
+}
+
 .bottom-grid_ars>div>div{
     width: 98%;
     height: 15%;
@@ -123,4 +141,52 @@ li a{
     text-decoration: none;
     color: blue;
 }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 610px) {
+    .help-middle>h1{
+        font-size: 40px;
+        
+    }
 
+} 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+    .bottom-grid_ars{
+        grid-template-areas: 
+        "b1 b1 b1 b1"
+        "b2 b2 b2 b2"
+        "b3 b3 b3 b3"
+        "b4 b4 b4 b4";
+    }
+    #bottom-container{
+        
+        height: 2000px;
+        margin-left: 10px;
+       
+        
+    }
+
+} 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .bottom-grid_ars{
+        grid-template-areas: 
+        "b1 b2 b3 b4";
+    }
+
+} 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .bottom-grid_ars{
+        grid-template-areas: 
+        "b1 b2 b3 b4";
+    }
+
+} 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .bottom-grid_ars{
+        grid-template-areas: 
+        "b1 b2 b3 b4";
+    }
+}
