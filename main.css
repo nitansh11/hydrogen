@@ -1,4 +1,4 @@
-/**************(slide show start by arshad )*************/
+/**************(explore banner start by arshad )*************/
 *{
     margin: 0px;
     padding:0px;
@@ -10,9 +10,8 @@ body{
 .explore-container_ars{
    
     height: 680px;
-    width: 95%;
-    margin: 2% auto;
-    
+    width: 90%;
+    margin: 5% auto;
 }
 .slide-container_ars{
    
@@ -30,7 +29,7 @@ body{
 #explore-grid_ars{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto;
     width: 98%;
     height: 90%;
 }
@@ -41,10 +40,24 @@ body{
     margin: 15px;
        
 }
+#explore-grid_ars>div:nth-child(1){
+    grid-area: ex1;
+}
+#explore-grid_ars>div:nth-child(2){
+    grid-area: ex2;
+}
+#explore-grid_ars>div:nth-child(3){
+    grid-area: ex3;
+}
+#explore-grid_ars>div:nth-child(4){
+    grid-area: ex4;
+}
+
 #explore-grid_ars>div>img{
     width: 100%;
     height: 70%;
 }
+/*************(slide show by arshad)**************/
 #slide-botton_ars{
     float: right;
     margin: 10px;
@@ -221,6 +234,16 @@ body{
         "mid_b3 mid_b3 mid_b3"
         ;
     }
+    #explore-grid_ars{
+        grid-template-areas: 
+        "ex1 ex1 ex2 ex2"
+        "ex3 ex3 ex4 ex4";
+    }
+    .explore-container_ars{
+   
+        height: 1000px;
+       
+    }
 
 } 
 /* Large devices (laptops/desktops, 1099px and up) */
@@ -230,6 +253,17 @@ body{
         "mid_b1 mid_b2 mid_b3"
         ;
     }
+    #explore-grid_ars{
+        grid-template-areas: 
+        "ex1 ex2 ex3 ex4"
+        ;
+    }
+    .explore-container_ars{
+   
+        height: 650px;
+       
+    }
+    
 
 
 } 
