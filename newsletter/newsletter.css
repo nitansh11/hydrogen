@@ -2,6 +2,54 @@
     margin:0;
     padding:0;
 }
+
+/************************** Navigation Section (by Nitansh) **************************/
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+}
+
+/************/
+#basic-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+}
+#basic-nav  a{
+    color: black;
+}
+#basic-nav  i{
+   border: none;
+}
+#logo img{
+    width: 200px;
+}
+#logo img+p{
+    text-align: center;
+}
+#basic-nav li{
+    display: inline;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+/************/
+
+#category-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0px;
+    color: gray;
+}
+#category-nav li{
+    display: inline;
+    padding: 0 10px;
+}
+
+
 /*******************************Newsletter CSS by Nitansh ************************/
 #newsletters{
     display: grid;
@@ -15,10 +63,11 @@
 #newsletters > div{
     border: 1px solid rgba(128, 128, 128, 0.486);
     padding: 0 0px 20px 0px;
-    box-shadow: gray 0px 0px 1px;   
+    box-shadow: gray 10px 10px 10px;   
 }
 #newsletters img{
-    width: 100%;
+    width: 100.3%;
+   
 }
 
 #newsletters > h1{
@@ -62,6 +111,28 @@
 } 
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
+      /* Navigation */
+      #category-nav ul{
+        overflow: auto;
+        white-space: nowrap;
+        padding-bottom: 30px;
+    }
+    #basic-nav{
+        display: grid;
+        grid-template-columns: 50%;
+        grid-gap: 10px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    #logo img+p{
+       visibility: hidden;
+    }
+    #logo{
+        margin-top: 15px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }  
     #newsletters > div{
         grid-column-start: 1;
         grid-column-end: 3;
