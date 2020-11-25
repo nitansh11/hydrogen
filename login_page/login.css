@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/************************** Navigation Section (by Nitansh) **************************/
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+}
+
+/************/
+#basic-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+}
+#basic-nav  a{
+    color: black;
+}
+#basic-nav  i{
+   border: none;
+}
+#logo img{
+    width: 200px;
+}
+#logo img+p{
+    text-align: center;
+}
+#basic-nav li{
+    display: inline;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+
+/* Login Task by SOHAIL start_project CSS */
+*{
+    margin:0;
+    padding:0;
+}
+.total{
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(rgba(182, 182, 182, 0.418),white);
+    
+}
+#main-soh{
+    border: 1px solid rgba(245, 222, 179, 0.199);
+    width: 28%;
+    height: 600px;
+    background-color: white;
+    font-family: 'ABeeZee';font-size: 22px;
+    margin: auto;
+    /* margin-top: 30px;    */
+    
+}
+#main{
+    margin-left: 30px;
+}
+#main-soh h2{
+    font-weight: 100;
+    margin-top: 10px;
+}
+#main-soh #main-1 input{
+    width: 300px;
+    height: 35px;
+    margin-top: 15px;
+    
+}
+#main-soh #main-1 h6{
+    font-size: 12px;
+    color:blue;
+    margin-top: 10px;
+    font-weight: 100;
+}
+#main-soh #main-1 button{
+    width: 305px;
+    height: 38px;
+    background-color: rgb(0, 128, 128);
+    color: white;
+    margin-top: 10px;
+}
+#main-soh #main-1 button:hover{
+    transform: translate(3px,3px);
+    background-color:darkgreen;
+}
+#main-soh #main-1 h5{
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 100;
+    
+}
+#main-soh #main-2 button:nth-child(1){
+    width: 305px;
+    height: 38px;
+    background-color:black;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: baseline;
+    font-size: 15px;
+    margin-top: 10px;
+}
+#main-soh #main-2 button:nth-child(1):hover{
+        transform: translate(3px,3px);
+        
+}
+#main-soh #main-2 button:nth-child(1) img{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 5px;   
+}
+#main-soh #main-2 button:nth-child(2){
+    width: 305px;
+    height: 40px;
+    background-color: rgba(0, 0, 128, 0.795);
+    color: white;  
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: baseline;
+}
+#main-soh #main-2 button:nth-child(2):hover{
+    transform: translate(3px,3px);
+    background-color:navy;
+
+}
+#main-soh #main-2 button:nth-child(2) img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#main-soh #main-2 p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+}
+.bottom p{
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left: 70px;
+
+}
+.bottom-1 p{
+    font-size: 12px;
+    margin-top: 20px;
+    color: gray;
+}
+
+/* Login Task_ended by SOHAIL start_project CSS */

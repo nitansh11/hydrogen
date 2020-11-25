@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/************************** Navigation Section (by Nitansh) **************************/
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+}
+
+/************/
+#basic-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+}
+#basic-nav  a{
+    color: black;
+}
+#basic-nav  i{
+   border: none;
+}
+#logo img{
+    width: 200px;
+}
+#logo img+p{
+    text-align: center;
+}
+#basic-nav li{
+    display: inline;
+    padding: 0 10px;
+    font-size: 13px;
+}
+
+/************/
+
+#category-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px 0px;
+    color: gray;
+}
+#category-nav li{
+    display: inline;
+    padding: 0 10px;
+}
+
+/********************Explore Comics CSS*******************/
+#explore-comics{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    width: 80%;
+    margin:50px auto;
+    padding: 100px 50px;
+    background-color: #FFF8F5;
+}
+#explore-comics > div:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-bottom: 1px solid pink;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+
+}
+
+/***********/
+#explore-comics-list >  button:nth-child(1){
+    background-color: #5555FF;
+    color:white;
+}
+#explore-comics-list >  button{
+    cursor: pointer;
+    height: 50px;
+    background-color: #DBE7FF;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    border-radius: 3px;
+    color: rgb(68, 65, 65);
+    font-size: 15px;
+    display: block;
+    border: none;
+    outline: none;
+}
+
+/***********/
+#explore-comics-content{
+    
+    display: flex;
+}
+#explore-comics-content img{
+    width: 90%;
+}
+#explore-comics-content h3{
+    margin: 10px 0 20px 0;
+    width: 80%;
+}
+#explore-comics-content > div > p{
+  width: 80%;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
