@@ -859,6 +859,15 @@ i {
 }
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
+    .data>h1{
+        padding-left: 17px;
+    }
+    .data>h5{
+        padding-left: 30px;
+    }
+    .data>p {
+        padding-left: 17px;
+    }
   /* Main Banner */
   #main-banner {
     grid-template-columns: 100%;
