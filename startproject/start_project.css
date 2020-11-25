@@ -182,7 +182,7 @@ li a{
 /* task:top-section,by:arshad,type:CSS_MAIN */
 #top-1_ars{
     height: 250px;
-    width: 650px;
+    width: 40%;
     margin-top: 20px;
     margin-left: 300px;
 }
@@ -285,7 +285,7 @@ li a{
     margin-bottom: 100px;
 }
 #top-3_ars>h1{
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 7%;
     padding-left: 20%;
     color: white;
@@ -304,6 +304,27 @@ li a{
 } 
 /* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
+    #top-3_ars>h1{
+        
+        padding-left: 2%;
+        
+    
+    }
+    #top-2_container_ars{
+        height: 1300px;
+       
+
+}
+    #top-2_grid_ars{
+        grid-template-areas:
+        "top_b1 top_b1"
+        "top_b2 top_b2"
+        "top_b3 top_b3" ;
+    }
+    #top-1_ars{
+        margin-left: 20px;
+        width: 100%;
+    }
       /* Navigation */
       #category-nav ul{
         overflow: auto;
