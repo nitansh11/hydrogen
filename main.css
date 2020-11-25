@@ -585,11 +585,11 @@ i{
     ba
 }
 /*****************************************Media Queries by Nitansh START ****************************************************/
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Small devices (portrait tablets and large phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     
 } 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and down) */
 @media only screen and (max-width: 768px) {
     /* Main Banner */
     #main-banner{
@@ -656,13 +656,13 @@ i{
     }  
 } 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
 
-} 
+}  */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* @media only screen and (min-width: 1200px) {
 
-}
+} */
 /*****************************************Media Queries by Nitansh END****************************************************/
 
 
