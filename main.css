@@ -6,16 +6,44 @@
 body{
   font-style: Verdana;
 }
+
+.explore-container_ars{
+   
+    height: 680px;
+    width: 95%;
+    margin: 2% auto;
+    
+}
 .slide-container_ars{
    
     height: 550px;
     width: 90%;
     margin: 5% auto;
 
+
 }
 .fresh-p_ars{
     margin: 10px;
     float: left;
+}
+
+#explore-grid_ars{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    width: 98%;
+    height: 90%;
+}
+#explore-grid_ars>div{
+
+    width: 95%;
+    height: 80%;
+    margin: 15px;
+       
+}
+#explore-grid_ars>div>img{
+    width: 100%;
+    height: 70%;
 }
 #slide-botton_ars{
     float: right;
@@ -46,10 +74,12 @@ body{
 #slide-grid_ars>div>img{
     
     height: 45%;
+
     width: 100%;
     
        
 }
+
 #slide-grid_ars>div>h3{
     margin: 10px;
 }
@@ -64,6 +94,7 @@ body{
 }
 /******(footer start by arshad)*****/
 #footer-container_ars{
+    padding-top: 50px;
     width: 95%;
     height: 400px;
     margin: 15px;
@@ -92,7 +123,11 @@ body{
     color: black;
 }
 .top-box_ars>div>h4{
-    margin-bottom: 18px;
+
+    margin-bottom: 20px;
+
+    
+
 }
 .middle-box_ars{
     display: grid;
@@ -249,9 +284,10 @@ li a{
 }
 /************************** Main Banner Section (by Nitansh) **************************/
 #main-banner{
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
     width: 90%;
-    height: 600px;
+ 
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -265,7 +301,7 @@ i{
 
 /*************/
 #main-banner-left{
-    width: 50%;
+  
     padding-right: 5%;
     border-right: 1px solid rgba(128, 128, 128, 0.425);
     
@@ -290,8 +326,7 @@ i{
 
 /*************/
 #main-banner-right{
- 
-    width: 40%;
+   
     padding-left: 5%;
 }
 
@@ -302,8 +337,8 @@ i{
     border-bottom: 1px solid rgba(128, 128, 128, 0.363);
 }
 .side-banner img{
-    width: 180px;
-    height: 100px;
+    width: 40%;
+    
    
     margin-right: 25px;
 }
@@ -325,22 +360,20 @@ i{
     font-size: 13px;
     color: gray;
 }
-
 /************************** Creative Banner Section (by Nitansh) **************************/
 #creative-banner{
     width: 80%;
-    height: 500px;
+   
     margin: 100px auto;
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: 30% 70%;
     border-top: 1px solid rgba(128, 128, 128, 0.377);
 }
 
 /********************/
 #creative-banner-left{
-   
-    width: 30%;
     padding: 150px 0;
+    
 }
 
 #creative-banner-left h2{
@@ -368,11 +401,10 @@ i{
 /********************/
 #creative-banner-right{
   
-    width: 70%;
 }
 
 #dot-border{
-    border: 1.5px dashed black;
+    /* border: 1.5px dashed black; */
     width: 70%;
     height: 250px;
     margin: 125px auto;
@@ -393,17 +425,14 @@ i{
     padding: 10px 0 0 10px;
 }
 
-#dot-border img+div > p:nth-child(1){
-    
-  }
+
 #dot-border img+div > p:nth-child(2){
   font-size: 12px;
   margin-top: 10px;
 }
 
-
 #dot-border img{
-    width: 125px;
+    width: 50%;
     position: absolute;
     z-index: -1;
 }
@@ -431,6 +460,98 @@ i{
 #dot-border > div:nth-child(6){
     top:190px;
     left: 440px;
-
 }
+
+/* task:top-section,by:arshad,type:CSS_MAIN */
+#top1_ars{
+    height: 200px;
+    width: 300px;
+    margin: 10px auto;
+    ba
+}
+/*****************************************Media Queries by Nitansh START ****************************************************/
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+} 
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    /* Main Banner */
+    #main-banner{
+        grid-template-columns: 100%;
+    }
+    /* Creative Banner */
+    #creative-banner{
+        display: grid;
+        grid-template-columns: 90%;
+    }
+    #creative-banner-left{
+        padding: 25px 0;
+    } 
+    #dot-border img{
+        width: 50%
+    }
+    #dot-border > div:nth-child(1){
+        top:-52px;
+        left: -50px;
+        border: 1px solid red;
+    }
+    #dot-border > div:nth-child(2){
+        top:-52px;
+        left: 150px; border: 1px solid red;
+    }
+    #dot-border > div:nth-child(3){
+        top:-52px;
+        left: 350px; border: 1px solid red;
+    }
+    
+    #dot-border > div:nth-child(4){
+        top:190px;
+        left: -120px; border: 1px solid red;
+    }
+    #dot-border > div:nth-child(5){
+        top:190px;
+        left: 100px; border: 1px solid red;
+    }
+    #dot-border > div:nth-child(6){
+        top:190px;
+        left: 340px; border: 1px solid red;
+    }
+    /* Navigation */
+    #category-nav ul{
+        overflow: auto;
+        white-space: nowrap;
+        padding-bottom: 30px;
+    }
+    #basic-nav{
+        display: grid;
+        grid-template-columns: 50%;
+        grid-gap: 10px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    #logo img+p{
+       visibility: hidden;
+    }
+    #logo{
+        margin-top: 15px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }  
+} 
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+
+}  */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+
+} */
+/*****************************************Media Queries by Nitansh END****************************************************/
+
+
+
+
+
 
