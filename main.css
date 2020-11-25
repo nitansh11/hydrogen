@@ -282,12 +282,12 @@ li a{
     display: inline;
     padding: 0 10px;
 }
+
 /************************** Main Banner Section (by Nitansh) **************************/
 #main-banner{
     display: grid;
     grid-template-columns: 50% 50%;
     width: 90%;
- 
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -326,7 +326,6 @@ i{
 
 /*************/
 #main-banner-right{
-   
     padding-left: 5%;
 }
 
@@ -359,6 +358,26 @@ i{
 .side-banner-content > p:nth-child(3){
     font-size: 13px;
     color: gray;
+}
+/********/
+#pagination{
+    
+    margin-top: 50px;
+}
+#pagination button{
+    display: inline-block;
+    margin: 0 0px;
+    width: 20px;
+    height: 30px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    font-size: 15px;
+    color: rgba(43,96,255,0.9);
+}
+#pagination button:hover{
+    color: purple;
 }
 /************************** Creative Banner Section (by Nitansh) **************************/
 #creative-banner{
@@ -467,7 +486,6 @@ i{
     height: 200px;
     width: 300px;
     margin: 10px auto;
-    ba
 }
 /*****************************************Media Queries by Nitansh START ****************************************************/
 /* Small devices (portrait tablets and large phones, 600px and down) */
@@ -479,6 +497,11 @@ i{
     /* Main Banner */
     #main-banner{
         grid-template-columns: 100%;
+    }
+    #main-banner-left{
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.425);
     }
     /* Creative Banner */
     #creative-banner{
