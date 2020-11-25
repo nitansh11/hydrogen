@@ -33,7 +33,21 @@ body{
     width: 98%;
     height: 90%;
 }
+#explore-grid2_ars{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    width: 98%;
+    height: 90%;
+}
 #explore-grid_ars>div{
+
+    width: 95%;
+    height: 80%;
+    margin: 15px;
+       
+}
+#explore-grid2_ars>div{
 
     width: 95%;
     height: 80%;
@@ -54,6 +68,23 @@ body{
 }
 
 #explore-grid_ars>div>img{
+    width: 100%;
+    height: 70%;
+}
+#explore-grid2_ars>div:nth-child(1){
+    grid-area: ex12;
+}
+#explore-grid2_ars>div:nth-child(2){
+    grid-area: ex22;
+}
+#explore-grid2_ars>div:nth-child(3){
+    grid-area: ex32;
+}
+#explore-grid2_ars>div:nth-child(4){
+    grid-area: ex42;
+}
+
+#explore-grid2_ars>div>img{
     width: 100%;
     height: 70%;
 }
@@ -185,6 +216,7 @@ body{
     height: 22%;
     width: 22px;
     
+    
     margin: 5px;
     margin-top: 10px;
     float: left;
@@ -239,6 +271,11 @@ body{
         "ex1 ex1 ex2 ex2"
         "ex3 ex3 ex4 ex4";
     }
+    #explore-grid2_ars{
+        grid-template-areas: 
+        "ex12 ex12 ex22 ex22"
+        "ex32 ex32 ex42 ex42";
+    }
     .explore-container_ars{
    
         height: 1000px;
@@ -256,6 +293,11 @@ body{
     #explore-grid_ars{
         grid-template-areas: 
         "ex1 ex2 ex3 ex4"
+        ;
+    }
+    #explore-grid2_ars{
+        grid-template-areas: 
+        "ex12 ex22 ex32 ex42"
         ;
     }
     .explore-container_ars{
