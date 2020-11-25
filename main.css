@@ -26,6 +26,20 @@ body{
     width: 98%;
     height: 90%;
 }
+#explore-grid_ars>div>h3{
+    margin-top: 10px;
+}
+#explore-grid_ars>div>p{
+    margin-top: 10px;
+    line-height: 20px;
+}
+#explore-grid2_ars>div>h3{
+    margin-top: 10px;
+}
+#explore-grid2_ars>div>p{
+    margin-top: 10px;
+    line-height: 20px;
+}
 #explore-grid2_ars{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -837,11 +851,9 @@ i{
 } 
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
-
 }  */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {
-
 } */
 /*****************************************Media Queries by Nitansh END****************************************************/
 
@@ -889,16 +901,8 @@ i{
 
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
-
 }  */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {
-
 } */
 /*****************************************Media Queries by SOHAIL END****************************************************/
-
-
-
-
-
-
