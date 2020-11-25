@@ -455,6 +455,53 @@ i{
 #pagination button:hover{
     color: purple;
 }
+
+/* task:email,by:sohail,type:CSS_MAIN */
+*{
+    margin: 0px;
+    padding:0px;
+}
+#email-soh{
+    border-top: 1px solid rgba(128, 128, 128, 0.438);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.301);
+    width: 100%;
+    margin: 50px auto;
+    padding:30px auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#email-soh .content{
+   margin: 30px auto;
+   padding:30px auto;
+   
+}
+#email-soh .content h2{
+    margin-bottom: 20px;
+}
+#email-soh .Enter{
+    margin-bottom: 30px;
+}
+#email-soh .button{
+    width: 120px;
+    height: 40px;
+    background-color:black;
+    color: white;
+    border: none;
+}
+#email-soh .Enter input{
+    width: 430px;
+    height: 33px;
+}
+
+.content{
+    grid-area: con;
+}
+.Enter{
+    grid-area: ent;
+}
+
+/* task:email_ended,by:sohail,type:CSS_MAIN */
+
 /************************** Creative Banner Section (by Nitansh) **************************/
 #creative-banner{
     width: 80%;
@@ -519,7 +566,6 @@ i{
     margin-left: 30px;
     padding: 10px 0 0 10px;
 }
-
 
 #dot-border img+div > p:nth-child(2){
   font-size: 12px;
@@ -593,28 +639,28 @@ i{
     #dot-border > div:nth-child(1){
         top:-52px;
         left: -50px;
-        border: 1px solid red;
+        
     }
     #dot-border > div:nth-child(2){
         top:-52px;
-        left: 150px; border: 1px solid red;
+        left: 150px; 
     }
     #dot-border > div:nth-child(3){
         top:-52px;
-        left: 350px; border: 1px solid red;
+        left: 350px;
     }
     
     #dot-border > div:nth-child(4){
         top:190px;
-        left: -120px; border: 1px solid red;
+        left: -120px;
     }
     #dot-border > div:nth-child(5){
         top:190px;
-        left: 100px; border: 1px solid red;
+        left: 100px; 
     }
     #dot-border > div:nth-child(6){
         top:190px;
-        left: 340px; border: 1px solid red;
+        left: 340px; 
     }
     /* Navigation */
     #category-nav ul{
@@ -648,6 +694,41 @@ i{
 
 } */
 /*****************************************Media Queries by Nitansh END****************************************************/
+
+
+
+
+
+
+/*****************************************Media Queries by SOHAIL START ****************************************************/
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+} 
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    /* Bottom Section */
+    #email-soh{
+        margin: auto;
+    }
+    #email-soh h1{
+        font-size: 20px;
+    }
+    #email-soh h3{
+        font-size: 15px;
+    }
+} 
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+
+}  */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+
+} */
+/*****************************************Media Queries by SOHAIL END****************************************************/
 
 
 
