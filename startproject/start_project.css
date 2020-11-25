@@ -168,7 +168,7 @@ li a{
     font-size: 35px;  
 }
 #bottom-section-2 p{
-   
+    margin-top: 20px;
 }
 #bottom-section-2 button{
     width: 150px;
@@ -177,6 +177,9 @@ li a{
     color: white;
     font-size: 17px;
     border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
 /* task:top-section,by:arshad,type:CSS_MAIN */
@@ -367,6 +370,14 @@ li a{
     #bottom-section-2 h1{
         font-size: 20px;  
     }
+    #bottom-section-2 p{
+        margin-top: 20px;
+    }
+    #bottom-section-2 button{
+        margin-top: 20px;
+    }
+
+    
    
 } 
 #footer-container_ars{
