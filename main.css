@@ -310,10 +310,10 @@ body{
 
 } 
 
-
-
-
 /************************** Navigation Section (by Nitansh) **************************/
+#navigation{
+  
+}
 li a{
     list-style: none;
     text-decoration: none;
