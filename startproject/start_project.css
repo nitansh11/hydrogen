@@ -251,10 +251,8 @@ li a{
 /*********************************** Bottom Section: By Nitansh ***********************************/
 
 #bottom-section-1{
-   
     width: 70%;
     margin: 20px auto;
-   
 }
 
 #bottom-section-1 > div:nth-child(1){
@@ -493,5 +491,23 @@ li a{
     color: white;
     padding-left: 20%;
     padding-top: 2%;
-
 }
+
+/*****************************************Media Queries by Nitansh START ****************************************************/
+/* Small devices (portrait tablets and large phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+} 
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+    
+} 
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+
+}  */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+
+} */
+/*****************************************Media Queries by Nitansh END****************************************************/
