@@ -502,6 +502,63 @@ i{
 
 /* task:email_ended,by:sohail,type:CSS_MAIN */
 
+* task:blackLives Matter,by:sohail,type:CSS_MAIN */
+*{
+    margin: 0px;
+    padding:0px;
+}
+#Black_Lives_Matter{
+    border: 1px solid rgba(0, 0, 0, 0.164);
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    border: 1px solid red;
+}
+#Black_Lives_Matter .left{
+    /* border:  1px solid black; */
+    width: 48%;
+}
+#Black_Lives_Matter .left .color{
+    background-color: black;
+    width: 90%;
+    height: 230px;
+    margin: auto;
+    margin-top: 37px;   
+}
+#Black_Lives_Matter .right {
+    /* border: 1px solid black; */
+    width: 48%;
+    height: 300px; 
+    display: flex;
+    line-height: 35px;
+    
+}
+#Black_Lives_Matter .right .dash{
+    background-color: black;
+    width: 5px;
+    height: 150px;
+    margin-top: 40px;    
+}
+#Black_Lives_Matter .right .data h1{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+#Black_Lives_Matter .right .data p{
+    font-size: 20px;
+    margin-left: 15px;
+}
+#Black_Lives_Matter .right .data h5{
+    color: gray;
+}
+
+.left{
+    grid-area: le;
+}
+.right{
+    grid-area: rig;
+}
+
 /************************** Creative Banner Section (by Nitansh) **************************/
 #creative-banner{
     width: 80%;
@@ -716,6 +773,23 @@ i{
     }
     #email-soh h3{
         font-size: 15px;
+    }
+
+    /*Black lives matter*/
+    #Black_Lives_Matter{
+        flex-direction: column;
+    }
+    #Black_Lives_Matter .left{
+        width: 100%;
+    }
+    #Black_Lives_Matter .right{
+        width: 100%;
+    }
+    .dash{
+        visibility: hidden;
+    }
+    #Black_Lives_Matter p{
+        font-size: 12px;
     }
 } 
 
