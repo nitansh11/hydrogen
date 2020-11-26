@@ -6,8 +6,8 @@ Our team name is ‘Hydrogen’ which consists of 3 team members:
 # Project Detail:
 Cloned User Interface of some pages of a Crowdfunding Website : KickStarter.com
 # Technplogies used:
-HTML
-CSS
-JavaScript
+* HTML
+* CSS
+* JavaScript
 
 
