@@ -9,5 +9,12 @@ Cloned User Interface of some pages of a Crowdfunding Website : KickStarter.com
 * HTML
 * CSS
 * JavaScript
+# We implemented the following pages of the website:
+* Homepage
+* ‘Start a project’ Page
+* Newsletter Page
+* Helpcenter Page
+* Login Page
+* and, 8 Category Pages (Only top section dynamically using JavaScript)
 
 
