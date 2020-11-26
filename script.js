@@ -71,3 +71,57 @@ function buttonClicked(e) {
 }
 
 /*************Pagination Code by Nitansh(End)*************/
+
+/*************slide show by arshad**********/
+var btn=document.getElementsByClassName("button_ars");
+var div=document.getElementsByClassName("div");
+l=0;
+for(var i=0;i<div.length;i++){
+    console.log(div[i]);
+}
+
+btn[1].onclick = ()=>{
+    l++;
+    for(var i=0;i<div.length;i++){
+        console.log(div[i]);
+
+       
+       if(l==0){
+           div[i].style.left="0px";
+       }
+       if(l==1){
+          div[i].style.left="-740px";
+           
+       }
+       if(l>1){
+           l=1;
+       }
+       console.log("arshad");
+   }
+}
+btn[0].onclick = ()=>{
+    l--;
+    for(var i=0;i<div.length;i++){
+        console.log(div[i]);
+
+       
+       if(l==0){
+           div[i].style.left="0px";
+       }
+       if(l==1){
+          div[i].style.left="-740px";
+           
+       }
+       if(l==2){
+          div[i].style.left="-1480px";
+       }
+       if(l==3){
+          div[i].style.left="-2220px";
+       }
+       
+       if(l<0){
+           l=0;
+       }
+       console.log("arshad");
+   }
+}
