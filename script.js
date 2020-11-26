@@ -89,12 +89,15 @@ btn[1].onclick = ()=>{
        if(l==0){
            div[i].style.left="0px";
        }
-       if(l==1){
+      if(l==1){
           div[i].style.left="-740px";
            
        }
-       if(l>1){
-           l=1;
+       if(l==2){
+         div[i].style.left="-1480";
+       }
+       if(l>2){
+           l=2;
        }
        console.log("arshad");
    }
@@ -110,13 +113,6 @@ btn[0].onclick = ()=>{
        }
        if(l==1){
           div[i].style.left="-740px";
-           
-       }
-       if(l==2){
-          div[i].style.left="-1480px";
-       }
-       if(l==3){
-          div[i].style.left="-2220px";
        }
        
        if(l<0){
