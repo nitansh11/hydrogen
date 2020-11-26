@@ -48,6 +48,82 @@ li a{
     padding: 0 10px;
 }
 
+/************************************************** Middle Section CSS By Nitansh **************************************/
+
+#middle-section{
+   
+    margin: 50px 0;
+}
+#middle-section-1{
+  
+    display: grid;
+    grid-template-columns: 30% 50%;
+    width: 60%;
+    margin: auto;
+    grid-gap:20px;
+}
+#middle-section-1 > h1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+@media only screen and (max-width: 768px) {
+    #middle-section-1{
+        grid-template-columns: 100%;
+    }
+    #middle-section-1 > h1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
+
+/****************/
+#middle-section-2{
+   
+    width:100%;
+    height: 600px;
+    background-color: #282828;
+    padding: 50px 0;
+    margin: 100px 0;
+    margin-bottom: 0;
+}
+#middle-section-2 > div{
+  
+    width: 80%;
+    height: 100%;
+    margin: auto;
+} 
+#middle-section-2 > div > iframe{
+    width:100%;
+    margin: auto;
+}
+/**************/
+
+#middle-section-3{
+    display: grid;
+    grid-template-columns: 20% 30%;
+    width: 100%;
+    margin: auto;
+    grid-gap:20px;
+    justify-content: center;
+    background-color: #F7F7F6;
+    padding: 100px 0;
+    border-bottom: 1px solid black;
+}
+#middle-section-3 > h1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+@media only screen and (max-width: 768px) {
+  
+    #middle-section-3{
+        grid-template-columns: 80%;
+    }
+    #middle-section-3 > h1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+}
+
 /*********************************** Bottom Section: By Nitansh ***********************************/
 
 #bottom-section-1{
