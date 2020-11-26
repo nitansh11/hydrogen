@@ -5,6 +5,7 @@ Our team name is ‘Hydrogen’ which consists of 3 team members:
 * Sohail Shaik
 # Project Detail:
 Cloned User Interface of some pages of a Crowdfunding Website : KickStarter.com
+
 # Technplogies used:
 * HTML
 * CSS
@@ -16,11 +17,12 @@ Cloned User Interface of some pages of a Crowdfunding Website : KickStarter.com
 * Helpcenter Page
 * Login Page
 * and, 8 Category Pages (Only top section dynamically using JavaScript)
-# 1.Homepage
+# 1. Homepage
 Features:
 * Responsive
 * Implemented Pagination Using JavaScript
 * Implemented Slideshow for articles list
+
 
 
 
