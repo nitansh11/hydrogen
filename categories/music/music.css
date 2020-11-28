@@ -7,7 +7,12 @@ li a{
     list-style: none;
     text-decoration: none;
     color: gray;
-}
+}#navigation a:hover{
+    color: purple;
+  }
+  #navigation a:active{
+    color: purple;
+  }
 
 /************/
 #basic-nav{
